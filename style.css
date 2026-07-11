@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 130px;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+    color: #575757;
+}
+button{
+       background-color: #1D4ED8;
+       color: #FFFFFF;
+       border: none;
+       padding: 15px 40px; 
+       border-radius: 12px;
+       cursor: pointer;
+       font-size: 16px;
+       font-weight: bold;
+}
