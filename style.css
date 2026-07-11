@@ -29,3 +29,31 @@ button{
        font-size: 16px;
        font-weight: bold;
 }
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/banner.jpg');
+    background-size: cover;
+    height: 1000px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 150px;
+    text-align: center;
+}
+.hero-heading{
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.hero-text{
+    font-size: 30px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.hero-button{
+    padding: 30px 80px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 400px;
+}
